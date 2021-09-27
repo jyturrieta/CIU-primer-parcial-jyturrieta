@@ -7,14 +7,14 @@ body{
 
 body h1{
     text-align: center;
-    color: #f54789;
+    color: #1d1f2f;
     font-size: 40px;
     margin: 16px;
 }
 
 body h3{
     text-align: center;
-    color: #f54789;
+    color: #1d1f2f;
     margin: 16px;
 }
 
@@ -81,7 +81,7 @@ body h3{
     
 }
 
-.imagen img{
+.tarjeta img{
     height: 160px;
     width: 100%;
     border-radius: 16px;
