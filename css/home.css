@@ -55,9 +55,10 @@ body h3{
     width: 160px;
     height: 32px;
     font-size: 16px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
 }
-
-
 
 .container_tarjetas{
     display: flex;
@@ -68,24 +69,23 @@ body h3{
 
 .tarjeta{
     display: flex;
-    background-color: #f54789;
+    background-color: #1d1f2f;
     height: 576px;
     width: 388px;
     flex-direction: column;
     margin: 16px;
     padding: 16px;
     border-radius: 16px;
-    border: 1px solid #000000;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
+    border: none;
+    box-shadow: 8px 8px 8px #454961; 
+    
 }
 
-.tarjeta img{
-    height: 172px;
-    width: 388px;
+.imagen img{
+    height: 160px;
+    width: 100%;
     border-radius: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
-    
 }
 
 p{
