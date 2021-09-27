@@ -1,0 +1,164 @@
+body{
+    background-color: #fdd306;
+    font-family: 'Roboto', sans-serif;;
+    margin: 0%;
+    padding:0%;
+}
+
+body h1{
+    text-align: center;
+    color: #f54789;
+    font-size: 40px;
+    margin: 16px;
+}
+
+body h3{
+    text-align: center;
+    color: #f54789;
+    margin: 16px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 112px;
+    background-color: #1d1f2f;
+    padding: 0%;
+    margin: 0%;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    width: 256px;
+    height: 64px;
+    padding-left: 32px;
+}
+
+
+.salir{
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    padding-right: 32px;
+}
+
+#cerrarSesion{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    background-color: #e84855;
+    width: 160px;
+    height: 32px;
+    font-size: 16px;
+}
+
+
+
+.container_tarjetas{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    display: flex;
+    background-color: #f54789;
+    height: 576px;
+    width: 388px;
+    flex-direction: column;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.tarjeta img{
+    height: 172px;
+    width: 388px;
+    border-radius: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+    
+}
+
+p{
+    color: white;
+    margin: 16px;
+}
+
+.parrafoTitle{
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    font-weight:bold
+}
+
+.container_codigo{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 16px;
+    background-color: yellow;
+    padding: 10px;
+    height: 56px;
+    width: 300px;
+    border: solid;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+
+.codigo{
+    display: flex;
+    align-self: center;
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+}
+
+a{
+    text-align: center;
+    color: yellow;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .tarjeta{
+        width: 300px;
+        height:480px;
+        align-items: center;
+   }
+
+   .container_tarjetas{
+       margin: 16px
+   }
+   .tarjeta img{
+    width: 260px;
+    height: 140px;
+    
+   }
+
+   .logo{
+       width: 128px;
+       height: 32px;
+   }
+   
+   .cerrarSesion{
+       width: 120px;
+       height: 40px;
+   }
+
+   .container_codigo{
+       width: 70%;
+       
+   }
+
+   .codigo{
+       font-size: 24px;
+   }
+}
