@@ -98,6 +98,12 @@ body{
     outline: none;
     resize: none;
     background-color: #fff;
+    
+}
+
+#dni{
+    -webkit-appearance: none; 
+    margin: 0;
 }
 
 @media only screen and (max-width: 576px) {
