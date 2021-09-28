@@ -1,4 +1,5 @@
 var enviarBoton = document.getElementById("enviar");
+var dniInput = document.getElementById("dni");
 
 enviarBoton.addEventListener('click', function(evento){
     if(dni.value.length != 8){
@@ -9,6 +10,7 @@ enviarBoton.addEventListener('click', function(evento){
         }
     else{
         evento.preventDefault()
+        localStorage.setItem("nombre", dniInput.value)
         window.location.href = 'home.html'
     }  
 });
